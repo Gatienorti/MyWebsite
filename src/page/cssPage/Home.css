@@ -1,0 +1,158 @@
+
+.body{
+    background-image: url('../../picture/background/home-page.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    color:white;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow: hidden;
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5vw;
+    padding-top:5vh;
+}
+.logo{
+    font-size: 3.2rem;
+    margin-left: 5vw;
+}
+.logo span{
+    color:#fbb829;
+    font-family:'Times New Roman', Times, serif;
+    font-size:3.5rem
+}
+.navList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5vw 0 0;
+    
+}
+.navList li{
+    margin:0 2vw;
+    max-width: fit-content;
+    border-bottom: solid 2px #fbb82900;
+    font-size: 1.2rem;
+}
+.navList li:hover{
+    border-bottom: solid 2px #fbb829;
+    transform: scale(1.2)
+}
+.link{
+    text-decoration: none;
+    color:white;
+}
+li{
+    list-style-type: none;
+}
+.mainText{
+    text-align: center;
+}
+h1{
+    padding:8vh 0;
+    font-size:2.5rem;
+    text-transform: uppercase;
+}
+h1 span{
+    color:#fbb829;
+    font-family:'Times New Roman', Times, serif;
+}
+.myhobbies{
+    border: solid white 2px;
+    font-size: 1.2rem;
+    padding: 2.5vh 0;
+    width: 35vw;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom:8vh;
+}
+.incons ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 10vw;
+    margin: 12vh auto 0vh auto;
+    padding: 0;
+}
+.incons a{
+    text-decoration:none;
+    color:white;
+}
+.enterBtn{
+    width: 18vw;
+    margin:6vh auto;
+    padding:2.5vh 0;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    background-color: #fbb829;
+}
+.enterBtn a{
+    text-decoration: none;
+    color:white;
+}
+.enterBtn span{
+    margin:0 0.5vw;
+}
+.contactDiv a{
+ color:white;
+}
+.sign{
+    width: 35vw;
+    margin:auto 10vw ;
+    text-align:  left;
+}
+@media(max-width:888px){
+    .navBar{
+        padding-top:7vh;
+        margin: 0;
+    }
+    .myhobbies{
+        width:70vw;
+        font-size: 1.3rem;
+    }
+    .incons ul{
+        width:22vw;
+        scale:1.2;
+    }
+    .enterBtn{
+        width:40vw;
+        font-size: 1.1rem;
+        margin:2vh auto;
+    }
+}
+@media(max-width:642px){
+    .navBar{
+        display:block;
+        padding-top:5vh;
+    }
+    .logo{
+        margin:0;
+    }
+    .navList{
+        display:flex;
+        margin: 2vh 8vw;
+        padding:0;
+    }
+    .myhobbies{
+        width:55vw;
+        font-size: 1.1rem;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin:auto;
+    }
+    .hide{
+        visibility: hidden;
+    }
+    .mainText{
+        margin-bottom: 0;
+    }
+    .enterBtn{
+        width:100vw;
+        font-size: 1.1rem;
+        margin:2vh auto;
+    }
+}
