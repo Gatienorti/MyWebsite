@@ -99,11 +99,27 @@ h1 span{
 .contactDiv a{
  color:white;
 }
+.aboutDiv h1{
+    padding-top: 2vh;
+}
 .sign{
     width: 35vw;
     margin:auto 10vw ;
     text-align:  left;
 }
+.sign .projectCard{
+    width: 350px;
+}
+.sign img{
+    width:350px;
+    height:auto;
+}
+.cardTitle{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
 @media(max-width:888px){
     .navBar{
         padding-top:7vh;
@@ -121,6 +137,12 @@ h1 span{
         width:40vw;
         font-size: 1.1rem;
         margin:2vh auto;
+    }
+    .sign .projectCard{
+        width: 300px;
+    }
+    .sign img{
+        width:300px;
     }
 }
 @media(max-width:642px){
@@ -154,5 +176,16 @@ h1 span{
         width:100vw;
         font-size: 1.1rem;
         margin:2vh auto;
+    }
+    .sign{
+        width:100vw;
+        margin:0px 0px;
+    }
+    .sign .projectCard{
+        width: 270px;
+        margin:auto;
+    }
+    .sign img{
+        width:270px;
     }
 }

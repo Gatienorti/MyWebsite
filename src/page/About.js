@@ -1,6 +1,8 @@
 import React from 'react'
 import './cssPage/Home.css'
 import {Link} from 'react-router-dom'
+import Card from './Card'
+import SignImg from '../picture/background/signBckg.PNG'
 
 function Project(){
         return(
@@ -40,13 +42,8 @@ function Project(){
                         <h1>
                         My Project
                         </h1>
-                        <div className='sign'>
-                            <h2><a href='https://signae-8pb8fvwi5.vercel.app/'>Sign Language Translator</a></h2>
-                            <p>
-                            My goal with this project is to able people that are mute and/or deaf to be able to use zoom and other telecommunication services
-
-For the moment my project translate sign laguage to word, my second step will be to add an AI voice to read each word that are sign and to add more sign
-                            </p>
+                        <div href="https://sign-asl.vercel.app/" className='sign'>
+                            <Card title="Sign Language Translator" img={SignImg}/>
                         </div>
                     </div>
                     
