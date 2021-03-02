@@ -49,7 +49,7 @@ function Contact() {
                             <p>Email: Gatien13200@gmail.com</p>
                             <p>Phone: +1 929 305 5446</p>
                             <p><a target={"_blank"} href="https://www.linkedin.com/in/gatien-orti/">Linkedin  </a></p>
-                            <p><a target={"_blank"} href="'https://github.com/Gatienorti'/">   Github</a></p>
+                            <p><a target={"_blank"} href="https://github.com/Gatienorti/">   Github</a></p>
                         </div>
                     </div>
                 </div>
