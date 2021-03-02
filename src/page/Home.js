@@ -50,7 +50,7 @@ function Home() {
                         programmer <span className='hide'>|</span> Web Geek <span className='hide'>|</span> Tech Savvy
                     </div>
                     <div className='enterBtn'>
-                        <a target={"_blank"} href='https://docs.google.com/document/d/19jWfmJJrJvO4dmHhnpnRWtsbuuyE2s39t6kki-CYkes/edit?usp=sharing' download='My Resume'>download my resume</a>
+                        <a target={"_blank"} href='https://docs.google.com/document/d/19jWfmJJrJvO4dmHhnpnRWtsbuuyE2s39t6kki-CYkes/edit?usp=sharing' download='My Resume'>View My Resume</a>
                     </div>
                     <div className='incons'>
                         <ul>
